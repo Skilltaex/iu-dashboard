@@ -1,0 +1,13 @@
+[project]
+name = "notenverwaltung"
+version = "0.1.0"
+description = "Ein modulares Notenverwaltungssystem mit MVC-Architektur für das IU-Portfolio."
+readme = "README.md"
+requires-python = ">=3.14"
+authors = [
+    { name = "Meric Kalkan", email = "meric.kalkan@iu-study.org" }
+]
+dependencies = []
+
+[tool.uv]
+managed = true
