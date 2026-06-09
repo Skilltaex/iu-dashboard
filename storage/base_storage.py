@@ -4,16 +4,17 @@ Stellt sicher, dass der Controller unabhängig von der konkreten Speicherlogik b
 """
 
 from abc import ABC, abstractmethod
+from models.studiengang import Studiengang
 
 class BaseStorage(ABC):
     """Abstrakte Basisklasse (Interface) für die Persistenzschicht."""
 
     @abstractmethod
-    def speichern(self, module: list) -> None:
-        """Speichert die übergebene Liste von Modulen."""
+    def speichern(self, studiengang: Studiengang) -> None:
+        """Speichert die Aggregatwurzel des Studiengangs."""
         pass
 
     @abstractmethod
-    def laden(self) -> list:
-        """Lädt alle gespeicherten Module und gibt sie als Liste zurück."""
+    def laden(self) -> Studiengang:
+        """Lädt die Aggregatwurzel und gibt das rekonstruierte Objekt zurück."""
         pass

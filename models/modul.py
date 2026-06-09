@@ -7,12 +7,12 @@ Diese Klasse enthält ausschließlich Attribute und typspezifische Konvertierung
 class Modul:
     """Repräsentiert ein einzelnes Studienmodul an der IU."""
     
-    def __init__(self, name: str, note: float, ects: int):
+    def __init__(self, name: str, note: float, ects: int) -> None:
         """
         Initialisiert ein neues Modul-Objekt.
 
         Args:
-            name (str): Der Name des Moduls (z. B. Einführung in die Programmierung mit Python).
+            name (str): Der Name des Moduls.
             note (float): Die erzielte Modulnote (Bereich 1.0 bis 5.0).
             ects (int): Die dem Modul zugewiesenen ECTS-Punkte.
         """
