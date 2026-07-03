@@ -24,7 +24,7 @@ class Application:
         print("=== IU NOTENVERWALTUNG (Erweiterte MVC-Struktur) ===")
 
         while True:
-            auswahl = NotenUI.zeige_menue()
+            auswahl = NotenUI.menue_auswahl_abfragen()
 
             # Option 1: Modul hinzufügen
             if auswahl == "1":

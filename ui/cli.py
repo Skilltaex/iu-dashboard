@@ -10,7 +10,7 @@ class NotenUI:
     """Repräsentiert die Benutzeroberfläche für die Notenverwaltung."""
 
     @staticmethod
-    def zeige_menue() -> str:
+    def menue_auswahl_abfragen() -> str:
         """
         Gibt das Hauptmenü auf der Konsole aus und fängt die Auswahl ab.
         
