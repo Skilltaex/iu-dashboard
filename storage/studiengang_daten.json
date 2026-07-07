@@ -1,0 +1,12 @@
+{
+    "name": "Informatik",
+    "regelstudienzeit": 6,
+    "angestrebter_schnitt": 1.5,
+    "semester": [
+        {
+            "semester_nummer": 1,
+            "bezeichnung": "1. Semester",
+            "module": []
+        }
+    ]
+}
